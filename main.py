@@ -12,7 +12,7 @@ from threading import Thread
 # in your Render.com service settings for security reasons.
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8735831453:AAFxz__CSMFDBsl4L_VkR7DctBan8AmATv8")
 CHAT_ID = os.environ.get("CHAT_ID", "7111158209")
-BASE_URL = os.environ.get("BASE_URL", "YOUR_RENDER_APP_URL_HERE") # e.g., "https://my-minecraft-bot.onrender.com"
+BASE_URL = os.environ.get("BASE_URL", "https://awkjdwad.onrender.com/") # e.g., "https://my-minecraft-bot.onrender.com"
 WEBHOOK_PATH = "/telegram-webhook"
 WEBHOOK_URL = f"{BASE_URL}{WEBHOOK_PATH}"
 
