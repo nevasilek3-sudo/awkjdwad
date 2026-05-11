@@ -1,0 +1,5 @@
+python-telegram-bot==20.8
+Flask==3.0.3
+gunicorn==22.0.0 # For deployment on Render.com
+requests==2.31.0
+gevent==21.12.0
